@@ -43,7 +43,7 @@ void draw()
   }}
  
  fill(50, 50, 200);
- rect(player2_x, player2_y, 10, 0);
+ rect(player2_x, player2_y, 10, 100);
  
  fill(200, 50, 50);
  rect(player_x, player_y, 10, 100);
