@@ -12,6 +12,8 @@ float player_x = 0;
 float player_y = 250;
 float player_y2 = 0;
 
+int pattanas_db = 0;
+
 void setup()
  {
  size(500, 500);
@@ -57,6 +59,7 @@ void draw()
       {
       x_move = x_move+0.1;
       x_move = -x_move;
+      pattanas_db = pattanas_db + 1;
       } 
     }
  
@@ -76,6 +79,7 @@ void draw()
       {
        x_move = x_move-0.1;
        x_move = -x_move;
+       pattanas_db = pattanas_db + 1;
       }   
  }
 
