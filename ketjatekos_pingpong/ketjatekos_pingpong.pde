@@ -82,6 +82,17 @@ void draw()
        pattanas_db = pattanas_db + 1;
       }   
  }
+ 
+ text(pattanas_db, 250, 10);
+ 
+ if ( ball_x < 0 ) {
+   text("game over", 250, 250);
+ }
+ 
+ if ( ball_x > 500 ) {
+   text("game over", 250, 250);
+   
+ }
 
  fill(50, 50, 50);
  ellipse(ball_x, ball_y, 20, 20);
