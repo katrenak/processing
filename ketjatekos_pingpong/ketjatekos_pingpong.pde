@@ -93,11 +93,11 @@ void draw()
  text(pattanas_db, 250, 10);
  
  if ( ball_x < 0 ) {
-   text("Game Over", 250, 250);
+   text("Game Over!!", 250, 250);
  }
  
  if ( ball_x > 500 ) {
-   text("Game Over", 250, 250);
+   text("Game Over!!", 250, 250);
    
  }
 
